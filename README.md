@@ -1,3 +1,11 @@
+
+# Data Binding in Angular
+
+This project was built in order to show off the common features of angular databinding
+
+You can view the [Data Binding Tutorial](https://simonable.github.io/angular-data-binding/) here.
+
+
 # DataBindingDeploy
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.1.
