@@ -5,6 +5,51 @@ This project was built in order to show off the common features of angular datab
 
 You can view the [Data Binding Tutorial](https://simonable.github.io/angular-data-binding/) here.
 
+### Steps for Deploying Angular Projects to Github Pages
+
+#### In terminal:
+
+* Have or create new angular project
+
+* ng new example-project
+
+* cd example-project
+
+* ng serve —open
+
+* ng build
+
+* ng build ‘example-project’ —prod —vendor-chunk=true
+
+* sudo npm i -g angular-cli-ghpages
+
+#### In GitHub: open up GitHub:
+
+* create a new repository
+* Note: There is no need to initialize GitHub pages in the settings. This will be done in your terminal!
+
+### In terminal:
+
+* git init
+
+* git add README.md
+
+* git commit -m "Uploading Deploy"
+
+* git remote add origin https://github.com/SimonAble/example-project.git
+
+* git push -u origin master (This will be the place where the angular app is served on GitHub pages)
+
+* ng build --prod --base-href https://simonable.github.io/example-project/
+
+* ng build --prod --base-href=/example-project/
+
+* sudo ngh --dir=dist/example-project
+
+### There you go! Navigate to the github page where you've deployed your project and it should be up and running!
+
+***
+
 
 # DataBindingDeploy
 
