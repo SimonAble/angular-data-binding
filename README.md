@@ -28,7 +28,7 @@ You can view the [Data Binding Tutorial](https://simonable.github.io/angular-dat
 * create a new repository
 * Note: There is no need to initialize GitHub pages in the settings. This will be done in your terminal!
 
-### In terminal:
+#### In terminal:
 
 * git init
 
